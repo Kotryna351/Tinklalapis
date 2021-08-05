@@ -1,0 +1,166 @@
+.produktu_meniu{
+				position: absolute;
+				left: 20%;
+				top:10%;
+				width:60%;
+				min-width: 600px;
+				min-height:80%;
+				border-radius:5px;
+				font-size: 50px;
+				background-color: rgba(125, 125, 125, 0.5);
+				font-family: 'Brush Script MT', cursive;
+				color: rgba(256, 256, 256, 256);
+				text-align: center;
+				padding:20px;
+			}
+			body{
+				background-image: url('https://img.freepik.com/free-photo/top-border-arranged-with-cosmetics-product-white-background_23-2147891346.jpg?size=626&ext=jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: rgba(130, 30, 256, 1);
+				background-attachment: fixed;
+
+			}
+			.produktas {
+				position: relative;
+				float:left;
+				top:10%;
+				background-color: rgba(0, 50, 0, 1);
+				margin: 10px;
+				width: 300px;
+				height: 300px;
+				cursor: pointer;
+				 transition: 0.3s;
+			}
+			.produktas:hover { 
+				position: relative;
+				float:left;
+				top:10%;
+				background-color: rgba(0, 50, 0, 1);
+				margin: 0px;
+				width: 305px;
+				height: 305px;
+				cursor: pointer;
+			}
+			.produktas:active {
+				position: relative;
+				float:left;
+				top:10%;
+				background-color: rgba(150, 150, 150, 1);
+				margin: 10px;
+				width: 290px;
+				height: 290px;
+				cursor: pointer;
+			}
+		.produkto_nuotrauka{
+			width:100%;
+			height:100%;
+		}
+		.produkto_aprasymas {
+			width: 100%;
+			position: absolute;
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.2);
+			color: white;
+		}
+		.juosta {
+			width: 100%;
+			position: absolute;
+			background-color: rgba(125, 125, 125, 0.5);
+			height:50px;
+			top: 0px;
+			left: 0px;
+			position: fixed;
+			z-index: 10;
+		}
+		.mygtukai {
+		float:right;
+		margin: 5px;
+		width: 120px;
+		height:40px;
+		background-color: rgb(204, 204, 255);
+		border: 0px solid;
+		cursor: pointer;
+		transition: 0.3s;
+		}
+		.mygtukai:hover {
+		float:right;
+		margin: 5px;
+		width: 122px;
+		height:42px;
+		background-color: rgb(204, 204, 255);
+		border: 0px solid;
+		cursor: pointer;
+		
+		}
+		.forma {
+			position: relative;
+			top: 10%;
+			left: 40%;
+			width: 500px;
+			padding: 12px 20px;
+			text-align: center;
+			background-color: rgba(125, 125, 125, 0.5);
+			font-size: 25px;
+		}
+		.vardasslaptazodis{
+			top: 10%;
+			width: 100%;
+			margin: 8px 0;
+			display: inline-block;
+			padding: 12px 20px;
+			background-color:rgb(242, 230, 255);
+			border:1px solid #c1c1c1;
+			
+			
+		}
+		.registruotis{
+			display: inline-block;
+			text-align: center;
+			width:100%;
+			padding: 12px 20px;
+			height:40px;
+			background-color: rgb(204, 153, 255);
+			margin: 8px 0;
+			border:1px solid #b1b1b1;
+			cursor: pointer;
+		}
+		.registruotis:hover {
+			display: inline-block;
+			text-align: center;
+			width:100%;
+			padding: 12px 20px;
+			height:40px;
+			background-color:rgb(208, 157, 256);
+			margin: 8px 0;
+			border:1px solid #b1b1b1;
+			cursor: pointer;
+		}
+		.meniu_mygtukas {
+			float:left;
+			margin: 5px;
+			width: 120px;
+			height:40px;
+			background-color: rgb(204, 204, 255);
+			border: 0px solid;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+		.meniu {
+			position: fixed;
+			width: 200px;
+			background-color: rgba(125, 125, 125, 0.5);
+			top: 55px;
+			left: 0px;
+			text-align: center;
+			visibility: hidden;
+		}
+		.meniu_opcija {
+			display: inline-block;
+			width:100%;
+			padding: 12px 20px;
+			margin: 0px 0px;
+			background-color: rgba(0,0,0,0);
+			border: none;
+			text-align: center;
+		}
